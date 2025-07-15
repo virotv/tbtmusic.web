@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/transparent_logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-3">
             {/* Adjusted logo width and height */}
-            <img src="/transparent_logo.png" alt="Logo" className="h-12 w-24" />
+            <img src={logo} alt="Logo" className="h-12 w-24" />
           </Link>
           
           {/* Desktop Navigation */}
