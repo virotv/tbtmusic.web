@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tbtmusic.web">
       <div className="min-h-screen bg-white">
         <Header />
         <Routes>
