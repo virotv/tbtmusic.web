@@ -48,10 +48,12 @@ const Downloads = () => {
             <p className="text-gray-300 mb-8 text-center leading-relaxed">
               Optimized for smart TVs and Android TV boxes. Big screen, bigger vibes.
             </p>
-            <button className="w-full bg-red-600 text-white py-4 px-6 rounded-2xl font-bold hover:bg-red-700 transition-all duration-300 flex items-center justify-center space-x-3 group-hover:shadow-lg">
-              <Download className="h-6 w-6" />
-              <span>Download TV APK</span>
-            </button>
+            <a href="https://virotv.b-cdn.net/assets/toptbtmusic/toptbtmusic.apk" target="_blank" rel="noopener noreferrer">
+              <button className="w-full bg-red-600 text-white py-4 px-6 rounded-2xl font-bold hover:bg-red-700 transition-all duration-300 flex items-center justify-center space-x-3 group-hover:shadow-lg">
+                <Download className="h-6 w-6" />
+                <span>Download TV APK</span>
+              </button>
+            </a>
           </div>
           
           <div className="group bg-gray-800 p-10 rounded-3xl border border-gray-700 hover:border-red-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
@@ -62,10 +64,12 @@ const Downloads = () => {
             <p className="text-gray-300 mb-8 text-center leading-relaxed">
               Compatible with Amazon Fire TV Stick devices. Stream throwbacks on any TV.
             </p>
-            <button className="w-full bg-red-600 text-white py-4 px-6 rounded-2xl font-bold hover:bg-red-700 transition-all duration-300 flex items-center justify-center space-x-3 group-hover:shadow-lg">
-              <Download className="h-6 w-6" />
-              <span>Download Fire TV APK</span>
-            </button>
+            <a href="https://virotv.b-cdn.net/assets/toptbtmusic/toptbtmusic.apk" target="_blank" rel="noopener noreferrer">
+              <button className="w-full bg-red-600 text-white py-4 px-6 rounded-2xl font-bold hover:bg-red-700 transition-all duration-300 flex items-center justify-center space-x-3 group-hover:shadow-lg">
+                <Download className="h-6 w-6" />
+                <span>Download Fire TV APK</span>
+              </button>
+            </a>
           </div>
         </div>
         

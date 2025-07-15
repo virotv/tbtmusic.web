@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Music, Mail, Heart } from 'lucide-react';
+import logo from '../assets/white_logo.png';
 
 const Footer = () => {
   return (
@@ -8,10 +9,14 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-3 mb-6 md:mb-0">
-            <div className="bg-red-600 rounded-full p-2">
+             <Link to="/" className="flex items-center space-x-3">
+            {/* Adjusted logo width and height */}
+            <img src={logo} alt="Logo" className="h-12 w-24" />
+          </Link>
+            {/* <div className="bg-red-600 rounded-full p-2">
               <Music className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold">Top TBT Music</span>
+            <span className="text-xl font-bold">Top TBT Music</span> */}
           </div>
           
           <div className="flex items-center space-x-6 text-sm">
